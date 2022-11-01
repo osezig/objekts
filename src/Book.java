@@ -26,10 +26,7 @@ public class Book {
 
     @Override
     public String toString() {
-        return "Book{ " +
-                "author = " + author +
-                ", title = " + title +
-                ", year = " + year;
+        return author.toString() + title + year;
     }
 
     @Override
